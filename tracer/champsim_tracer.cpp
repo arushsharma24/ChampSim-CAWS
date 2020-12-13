@@ -4,12 +4,12 @@
  *  and could serve as the starting point for developing your first PIN tool
  */
 
+#include "pin.H"
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
 #include <string.h>
 #include <string>
-#include "pin.H"
 
 #define NUM_INSTR_DESTINATIONS 2
 #define NUM_INSTR_SOURCES 4
