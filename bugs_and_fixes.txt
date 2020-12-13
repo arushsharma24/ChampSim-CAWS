@@ -1,0 +1,8 @@
+main.cc line 430 : inset to insert
+main.cc line 361 : isert to insert
+main.cc line 360 : ease to erase
+main.cc line 339, 330, 351, 457 : add parantheses at the ends of begin and end
+
+main.cc line 317 :      map <uint64_t, char>::iterator pr = page_table.begin();
+ to map <uint64_t, uint64_t>::iterator pr = page_table.begin();
+char was not the correct datatype.
